@@ -43,11 +43,11 @@ function renderGame() {
     } else if (sum === 21) {
         message = "Wohoo! You have got Blackjack!"
         hasBlackJack = true
-        player.chips += 10
+        
     } else {
         message = "You are out of the game!"
         isAlive = false
-        player.chips -= 10
+        
     }
 
 
