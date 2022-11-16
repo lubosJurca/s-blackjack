@@ -43,11 +43,11 @@ function renderGame() {
     } else if (sum === 21) {
         message = "Wohoo! You have got Blackjack!"
         hasBlackJack = true
-        
+
     } else {
         message = "You are out of the game!"
         isAlive = false
-        
+
     }
 
 
@@ -75,3 +75,19 @@ function newCard() {
 function getRandomCard() {
     return Math.ceil(Math.random() * (11 - 1) + 1)
 }
+
+
+
+// // generator hesla
+// let solutionEl = document.getElementById("solution")
+
+
+// function generatePassword(){
+//     for(let i = 0; i < 16; i++){
+//     let randomIndex = Math.floor(Math.random() * characters.length)
+//     solutionEl.innerText += characters[randomIndex]
+//      }
+
+// }
+
+// generatePassword()
